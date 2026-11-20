@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    color: #17324d;
+}
+
+.navbar {
+    background: rgba(3, 35, 58, 0.95);
+    padding: 18px 0;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.navbar-brand span {
+    color: #35d6cf;
+}
+
+.nav-link {
+    color: white !important;
+    margin: 0 10px;
+}
+
+.btn-book {
+    background: #20c9c3;
+    color: #07334a;
+    font-weight: 700;
+    border-radius: 25px;
+    padding: 10px 24px;
+}
+
+.hero {
+    min-height: 680px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background:
+        url('https://images.unsplash.com/photo-1500375592092-40eb2168fd21?w=1920')
+        center/cover no-repeat;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        90deg,
+        rgba(2, 28, 49, 0.9),
+        rgba(2, 28, 49, 0.25)
+    );
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    padding-top: 70px;
+}
+
+.hero-label, .section-label {
+    color: #17cfc5;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.hero h1 {
+    font-size: clamp(42px, 6vw, 68px);
+    font-weight: 800;
+    margin: 20px 0;
+}
+
+.hero h1 span {
+    color: #36d9d0;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 530px;
+    line-height: 1.8;
+}
+
+.btn-explore {
+    margin-top: 20px;
+    background: #20c9c3;
+    color: #07334a;
+    padding: 14px 30px;
+    border-radius: 30px;
+    font-weight: 700;
+}
+
+.section-title {
+    font-weight: 800;
+    margin: 12px 0;
+}
+
+.package-card {
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(0,0,0,.08);
+    height: 100%;
+    transition: .3s;
+}
+
+.package-card:hover {
+    transform: translateY(-7px);
+}
+
+.package-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.package-content {
+    padding: 25px;
+}
+
+.package-content h3 {
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.package-content p {
+    color: #718096;
+}
+
+.package-content a {
+    color: #079f9a;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.category {
+    font-size: 11px;
+    color: #079f9a;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.why-section {
+    background: #f0fafa;
+}
+
+.why-section h2 {
+    color: #079f9a;
+    font-weight: 800;
+}
+
+.footer {
+    background: #062b43;
+    color: white;
+    padding: 45px 0;
+}
+
+.footer p {
+    color: #a8c4d3;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        min-height: 600px;
+    }
+
+    .hero h1 {
+        font-size: 43px;
+    }
+}
