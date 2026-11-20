@@ -1,0 +1,24 @@
+HTTP/1.1 302 Found
+Host: 127.0.0.1:8000
+Connection: close
+X-Powered-By: PHP/8.2.12
+Cache-Control: no-cache, private
+Date: Fri, 06 Nov 2026 06:22:38 GMT
+Location: http://127.0.0.1:8000/login
+Content-Type: text/html; charset=utf-8
+Set-Cookie: XSRF-TOKEN=eyJpdiI6InEvM3dDQjlteVdoaytjSGJ4V0Rid0E9PSIsInZhbHVlIjoiTWpUcVh3d1BzZW5EZFNvVkZ4WVZDMTZRenhwRmNLSGpiSHNta2ZsbkJHRW5EUDljelBkT2o4M20xT1RMUDdxb0kyMkl1UDVYVlZmOEJVNS9vS000OE1QaU0zMDlqR1dYYWZ6SjlCbWFvY1BiNnVMMnhrSWs4dUlmd0hud2p1R0ciLCJtYWMiOiIzNmYxOTM5OWEyYmY3ZTkwYWRiYjJmYzNkZjJiYTgwMGQ4NzM1Mjc3MjhkN2I1Mzk0YjhiZDE1YmVmNjc4NTU5IiwidGFnIjoiIn0%3D; expires=Fri, 06 Nov 2026 08:22:38 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: kai-travel-session=eyJpdiI6ImoyWGdJQzI0cldTNXUyU2NJT3Nrcmc9PSIsInZhbHVlIjoiY2g4M0ZHK0lYcXJXdEdrMHB2VG94eFMzMHNmUlJMQW54T1dZVnR2NUdxVnc2Mk9VWmJROFdlT2ZVUmlobWRNdUtFcWJIUGQzTlhFR2o3RzdYZnFwQ2lwY01aWEZqVHdkdzVYcjgrejQzbDZHU2RDTHV1TUxBSzZucDhWRU5SSVUiLCJtYWMiOiI4ZjM4ZWQwMWU1NGEyMDMxNGRiYTNhNWViMTZjMzlmNmVhOWYyMWVhNDJhNDY3M2ZjNjkzZmE3NzVhMjdkOTU3IiwidGFnIjoiIn0%3D; expires=Fri, 06 Nov 2026 08:22:38 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="refresh" content="0;url='http://127.0.0.1:8000/login'" />
+
+        <title>Redirecting to http://127.0.0.1:8000/login</title>
+    </head>
+    <body>
+        Redirecting to <a href="http://127.0.0.1:8000/login">http://127.0.0.1:8000/login</a>.
+    </body>
+</html>
